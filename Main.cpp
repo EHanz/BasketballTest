@@ -7,6 +7,7 @@
 #include "Player.hpp"
 
 Player* b_player;
+
 //Runs the basketball stat tester
 int main ()
 {

@@ -21,12 +21,12 @@ Player :: ~Player ()
 void
 Player :: setPPG (float val)
 {
-    
+    p_ppg = val;
 }
 
 //Returns the Player PPG
 float
 Player :: getPPG ()
 {
-
+    return p_ppg;
 }
