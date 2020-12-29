@@ -19,9 +19,9 @@ Player :: ~Player ()
 
 //Sets Player PPG based on the given value
 void
-Player :: setPPG (float val)
+Player :: setPPG (float ppg)
 {
-    p_ppg = val;
+    p_ppg = ppg;
 }
 
 //Returns the Player PPG
@@ -30,3 +30,4 @@ Player :: getPPG ()
 {
     return p_ppg;
 }
+
