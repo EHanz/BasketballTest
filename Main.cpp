@@ -15,3 +15,8 @@ int main ()
     b_player.setPPG (temp);
     std :: cout << b_player.getPPG () << std :: endl;
 }
+
+/*
+* Add Functions for various simulations
+* Start with PER stats and random calculations
+*/
