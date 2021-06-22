@@ -66,7 +66,7 @@ Player :: getGames ()
 void
 Player :: setTRBPG (float trbpg)
 {
-    p_trbpg = trb;
+    p_trbpg = trbpg;
 }
 
 float
@@ -96,7 +96,7 @@ Player :: setMPG (float mpg)
 float
 Player :: getMPG ()
 {
-    return mpg;
+    return p_mpg;
 }
 
 void
